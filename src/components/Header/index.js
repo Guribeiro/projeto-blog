@@ -9,10 +9,10 @@ export default class Header extends Component {
 		return (
 			<Container>
 				<SubContainer>
-					<Link>
+					<Link to='/'>
 						Blog do programador
 					</Link>
-					<Link>
+					<Link to='/login'>
 						Login
 					</Link>
 				</SubContainer>

@@ -27,7 +27,4 @@ export const SubContainer = styled(Container)`
 
 export const Post = styled.section`
 	width: 100%;
-
-	border: 1px solid red;
-
 `;

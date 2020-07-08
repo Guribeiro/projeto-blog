@@ -3,7 +3,7 @@ import { Container, SubContainer} from './styles';
 
 import Post from '../../components/Post';
 
-import firebase from '../../service/fireabase';
+import firebase from '../../service/firebase';
 
 export default class Home extends Component {
 
@@ -25,18 +25,10 @@ export default class Home extends Component {
 					description: childItem.val().description,
 					image: childItem.val().image,
 					title: childItem.val().title,
-
 				});
-
 				this.setState(posts);
 			})
-
-			console.log(posts)
 		})
-	}
-
-	mountPost = () =>{
-
 	}
 
 	render() {
